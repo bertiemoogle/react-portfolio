@@ -4,17 +4,9 @@ import "../css/home.css";
 function Home() {
   return (
     <div>
-      <h1>James Fahey</h1>
-      <p className="paraFont">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
-      </p>
+      <h1 className="headerFont">James Fahey</h1>
+      <h2>Front End Web Developer</h2>
+      <img src={require("./images/moogle.png")} className="avatarImg" alt="A moogle" />
     </div>
   );
 }
