@@ -1,8 +1,5 @@
 * {
     box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    margin: 0;
 }
 
 .cvDownload {
@@ -79,7 +76,6 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    margin: 0 0 0 0;
 }
 
 .firstRow {
@@ -94,3 +90,42 @@ h2 {
     justify-content: space-around;
     padding-bottom: 100px;
 }
+
+.cardBody {
+    width: 20rem;
+    justify-content: center !important;
+}
+
+.card {
+    width: 20rem;
+    justify-content: center !important;
+}
+
+.testImg {
+    width: 100%;
+    padding: 5px;
+}
+
+.cardTitle {
+    color: black;
+}
+
+.cardDescription {
+    color: black;
+}
+
+.cardBtn {
+    background-color: rgb(70, 70, 237);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.cardBtn:hover {
+    background-color: aqua;
+}
+
+/* .testImg {
+    padding-left: 50px;
+} */
