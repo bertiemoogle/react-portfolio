@@ -6,7 +6,7 @@ function About() {
     <div>
       <h1 className="headerFont">About Me</h1>
         <div class="row aboutRow">
-          <img src={require("./images/aGRsaGd_d.jpg")} className="thinkImg" alt="A person thinking" />
+          <img src={require("./images/think.png")} className="thinkImg" alt="A person thinking" />
             <div class="col-lg-5 col-sm-12">
                 <p>Having been ill for a long time with anxiety and depression I decided
                     I needed to do something constructive to occupy my time. I first studied for, and graduated with, an
