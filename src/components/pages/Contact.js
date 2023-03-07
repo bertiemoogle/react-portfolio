@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
+// import { Link, Route, Routes } from 'react-router-dom';
 
-function Contact(props) {
+function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <h1 className="headerFont">Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
