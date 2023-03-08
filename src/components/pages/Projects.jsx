@@ -17,7 +17,7 @@ function Projects() {
       <div className="col-lg-4">
         <DisplayCard 
           img={require("./images/readme.png")}
-          title="README Generator"
+          title="README.md Generator"
           description="A dynamically-generated README file app"/>
           <a href="https://github.com/bertiemoogle/Readme-Generator" target="_blank" rel="noreferrer"><button type="button" className="cardBtn">GitHub Repo</button></a>
           </div>

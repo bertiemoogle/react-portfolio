@@ -1,24 +1,42 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Link, Route, Routes } from 'react-router-dom';
+import {MdOutlineEmail} from "react-icons/md";
+import {RiMessengerLine} from "react-icons/ri";
+import {BsWhatsapp} from "react-icons/bs";
 
 function Contact() {
   return (
     <div>
       <h1 className="headerFont">Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <div className="container contact-container">
+        <div className="contact-options">
+          <article classname="contact-option">
+            <MdOutlineEmail className="contact-icon"/>
+            <h4>Email</h4>
+            <h5>bertiemoogle@gmail.com</h5>
+            <a href="mailto:bertiemoogle@gmail.com" target="_blank" rel="noreferrer" className="contactDetails">Email Me</a>
+          </article>
+          <article classname="contact-option">
+            <RiMessengerLine className="contact-icon"/>
+            <h4>Messenger</h4>
+            <h5>James Fahey</h5>
+            <a href="https://m.me/james.fahey" target="_blank" rel="noreferrer" className="contactDetails">Message Me</a>
+          </article>
+          <article classname="contact-option">
+            <BsWhatsapp className="contact-icon"/>
+            <h4>WhatsApp</h4>
+            <h5>+44 0700 123456</h5>
+            <a href="https://api.whatsapp.com/send?phone=0700123456" target="_blank" rel="noreferrer" className="contactDetails">WhatsApp Me</a>
+          </article>
+        </div>
+
+        <form action="">
+          <input type="text" name="name" placeholder="Your full name..." required />
+          <input type="email" name="email" placeholder="Your email..." required />
+          <textarea name="message" rows="10" placeholder="Your message here..." required></textarea>
+          <button type="submit" className="btn btn-primary">Send Message</button>
+        </form>
+      </div>
     </div>
   );
 }
