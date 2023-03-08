@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {MdOutlineEmail} from "react-icons/md";
 import {RiMessengerLine} from "react-icons/ri";
 import {BsWhatsapp} from "react-icons/bs";
+import emailjs from "emailjs-com";
+
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_grn2mnp', 'template_fatenmg', form.current, 'CzMfSI5AOChpY2l85')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <div>
       <h1 className="headerFont">Contact Page</h1>
@@ -30,7 +45,7 @@ function Contact() {
           </article>
         </div>
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your full name..." required />
           <input type="email" name="email" placeholder="Your email..." required />
           <textarea name="message" rows="10" placeholder="Your message here..." required></textarea>
