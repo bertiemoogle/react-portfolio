@@ -14,9 +14,9 @@ function Projects() {
           description="First Repo"/></div>
       <div className="col-lg-4">
         <DisplayCard 
-          img="https://w7.pngwing.com/pngs/403/269/png-transparent-react-react-native-logos-brands-in-colors-icon-thumbnail.png"
-          title="Repo One"
-          description="First Repo"/></div>
+          img={require("./images/readme.png")}
+          title="README Generator"
+          description="A dynamically-generated README file app."/></div>
       <div className="col-lg-4">
         <DisplayCard 
           img="https://w7.pngwing.com/pngs/403/269/png-transparent-react-react-native-logos-brands-in-colors-icon-thumbnail.png"

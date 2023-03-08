@@ -92,16 +92,16 @@ h2 {
 }
 
 .cardBody {
-    width: 20rem;
+    width: 25rem;
     justify-content: center !important;
 }
 
 .card {
-    width: 20rem;
+    width: 2rem;
     justify-content: center !important;
 }
 
-.testImg {
+.repoImg {
     width: 100%;
     padding: 5px;
 }
@@ -125,7 +125,3 @@ h2 {
 .cardBtn:hover {
     background-color: aqua;
 }
-
-/* .testImg {
-    padding-left: 50px;
-} */
