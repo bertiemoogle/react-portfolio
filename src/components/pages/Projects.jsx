@@ -4,7 +4,7 @@ import DisplayCard from "./Card";
 
 function Projects() {
   return (
-    <div className="container">
+    <div className="container projects-container">
       <h1 className="headerFont">Projects</h1>
       <div className="row firstRow">
       <div className="col-lg-4">

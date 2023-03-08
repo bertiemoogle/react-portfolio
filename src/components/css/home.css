@@ -153,7 +153,11 @@ article {
     background-color: rgb(13, 12, 110);
     border-radius: 10px;
     text-align: center;
-    border: 1px solid white !important;
+    border: 1px solid rgb(121, 96, 250) !important;
+}
+
+article:hover {
+    background-color: rgb(5, 5, 62);
 }
 
 .contact-icon {
@@ -173,7 +177,7 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 1px solid white;
+    border: 1px solid rgb(121, 96, 250);
     resize: none;
     color: white;
 }
@@ -187,6 +191,20 @@ input, textarea {
 
 @media screen and (max-width: 600px) {
     .container.contact-container {
+        grid-template-columns: 1fr;
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 2rem
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
         grid-template-columns: 1fr;
         width: 100%
     }
