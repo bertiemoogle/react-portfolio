@@ -196,16 +196,9 @@ input, textarea {
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .container {
-        grid-template-columns: 1fr;
-        gap: 2rem
-    }
-}
 
 @media screen and (max-width: 600px) {
-    .container {
-        grid-template-columns: 1fr;
-        width: 100%
+    .nav-link {
+        font-size: 1rem !important;
     }
 }
