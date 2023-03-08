@@ -175,3 +175,17 @@ input, textarea {
     resize: none;
     color: white;
 }
+
+@media screen and (max-width: 1024px) {
+    .container.contact-container {
+        grid-template-columns: 1fr;
+        gap: 2rem
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container.contact-container {
+        grid-template-columns: 1fr;
+        width: 100%
+    }
+}
