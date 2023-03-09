@@ -23,7 +23,7 @@ function About() {
             </div>
             <div className="row">
               <footer>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer"><AiOutlineLinkedin/></a>
+              <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer"><AiOutlineLinkedin/></a>
               <a href="https://instagram.com" target="_blank" rel="noreferrer"><AiOutlineInstagram/></a>
               <a href="https://twitter.com" target="_blank" rel="noreferrer"><RxTwitterLogo/></a>
               </footer>
