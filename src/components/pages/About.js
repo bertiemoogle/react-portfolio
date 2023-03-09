@@ -1,5 +1,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {AiOutlineLinkedin} from "react-icons/ai";
+import {AiOutlineInstagram} from "react-icons/ai";
+import {RxTwitterLogo} from "react-icons/rx";
+
 
 function About() {
   return (
@@ -17,10 +21,17 @@ function About() {
                     to be a part of it.
                 </p>
             </div>
-            
+            <div className="row">
+              <footer>
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer"><AiOutlineLinkedin/></a>
+              <a href="https://instagram.com" target="_blank" rel="noreferrer"><AiOutlineInstagram/></a>
+              <a href="https://twitter.com" target="_blank" rel="noreferrer"><RxTwitterLogo/></a>
+              </footer>
+            </div>
         </div>
     </div>
   );
 }
 
 export default About;
+
