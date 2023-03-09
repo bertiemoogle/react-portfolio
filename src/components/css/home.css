@@ -164,6 +164,10 @@ article {
     border: 1px solid rgb(121, 96, 250) !important;
 }
 
+.btn {
+    width: 200px;
+}
+
 article:hover {
     background-color: rgb(5, 5, 62);
 }
