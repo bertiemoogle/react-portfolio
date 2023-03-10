@@ -195,6 +195,7 @@ article {
 
 article:hover {
     background-color: rgb(5, 5, 62);
+    border: 1px solid white !important;
 }
 
 .contact-icon {
