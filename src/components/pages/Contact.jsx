@@ -22,7 +22,7 @@ function Contact() {
 
   return (
     <div>
-      <h1 className="headerFont">Contact Page</h1>
+      <h1 className="headerFont">Contact</h1>
       <div className="container contact-container">
         <div className="contact-options">
           <article classname="contact-option">

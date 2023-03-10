@@ -107,7 +107,8 @@ h1 {
     color: rgb(5, 5, 62) !important;
     font-size: 1.5rem;
     font-weight: bold;
-    padding-right: 60px;
+    text-align: left;
+    padding-left: 10px;
 }
 
 .cardDescription {
@@ -241,16 +242,43 @@ input, textarea {
     }
 }
 
+@media screen and (max-width: 1280px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardBody {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    article {
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
+
 @media screen and (max-width: 1024px) {
     .projects-container {
         grid-template-columns: 1fr;
         gap: 2rem
     }
-    /* .repoImg {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    } */
+
     .cardBody {
         width: 100%;
         display: flex;
@@ -281,10 +309,6 @@ input, textarea {
         margin-left: auto;
         margin-right: auto;
     }
-    
-    .cardTitle {
-        margin-left: 50px;
-    }
 
     .cardDescription {
         margin-left: auto;
@@ -292,8 +316,9 @@ input, textarea {
     }
 
     article {
+        width: 100%;
         flex-direction: column;
-        justify-content: center;
-        text-align: center;
+        justify-content: center!important;
+        text-align: center !important;
     }
 }
