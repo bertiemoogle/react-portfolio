@@ -193,9 +193,9 @@ article {
     width: 200px;
 }
 
-/* article:hover {
+article:hover {
     background-color: rgb(5, 5, 62);
-} */
+}
 
 .contact-icon {
     text-align: center;
