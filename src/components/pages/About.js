@@ -3,6 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {AiOutlineLinkedin} from "react-icons/ai";
 import {AiOutlineInstagram} from "react-icons/ai";
 import {RxTwitterLogo} from "react-icons/rx";
+import {ImHtmlFive2} from "react-icons/im";
+import {ImCss3} from "react-icons/im";
+import {TbBrandJavascript} from "react-icons/tb";
+import {FaReact} from "react-icons/fa";
+import {BsBootstrap} from "react-icons/bs";
+import {FaNodeJs} from "react-icons/fa";
 
 
 function About() {
@@ -12,14 +18,23 @@ function About() {
         <div class="row aboutRow">
           <img src={require("./images/think.png")} className="thinkImg" alt="A person thinking" />
             <div class="col-lg-5 col-sm-12">
-                <p>Having been ill for a long time with anxiety and depression I decided
+            <p>Proficient In:</p>
+            <ul className="skillsList">
+              <li><ImHtmlFive2 /> HTML</li>
+              <li><ImCss3 /> CSS</li>
+              <li><TbBrandJavascript /> JavaScript</li>
+              <li><FaReact /> React.js</li>
+              <li><BsBootstrap /> Bootstrap</li>
+              <li><FaNodeJs /> Node.js</li>
+            </ul>
+                {/* <p>Having been ill for a long time with anxiety and depression I decided
                     I needed to do something constructive to occupy my time. I first studied for, and graduated with, an
                     honours degree in literature, having had vague ideas about becoming a teacher. After that I
                     came across the Python programming language and discovered that I love writing code. The opportunity
                     to attend this front end web development bootcamp arose, which I have eagerly taken up. The world
                     wide web is still in its infancy, and I don't want to merely see what happens to it - I really want
                     to be a part of it.
-                </p>
+                </p> */}
             </div>
             <div className="row">
               <footer>
