@@ -58,6 +58,7 @@ h1 {
 }
 
 .fade-in-text-2 {
+    text-align: center;
     animation: fadeIn 6s;
 }
 
