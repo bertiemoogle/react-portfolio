@@ -120,7 +120,6 @@ h1 {
     background-color: rgb(70, 70, 237);
     width: 150px;
     margin-top: 10px;
-    margin-left: 80px;
     border-radius: 5px;
 }
 
@@ -164,6 +163,8 @@ header {
 }
 
 article {
+    flex-direction: column;
+    justify-content: center;
     padding: 10px;
     background-color: rgb(13, 12, 110);
     border-radius: 10px;
@@ -245,15 +246,30 @@ input, textarea {
         grid-template-columns: 1fr;
         gap: 2rem
     }
-    .repoImg {
-        display: grid;
-        justify-content: center;
-    }
+    /* .repoImg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
     .cardBody {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
+    article {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -265,14 +281,19 @@ input, textarea {
         margin-left: auto;
         margin-right: auto;
     }
-    .cardBtn {
-        margin-left: 120px;
-    }
+    
     .cardTitle {
         margin-left: 50px;
     }
+
     .cardDescription {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    article {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
 }
