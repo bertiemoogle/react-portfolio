@@ -19,8 +19,8 @@ function About() {
         <div class="row aboutRow">
           <img src={require("./images/think.png")} className="thinkImg" alt="A person thinking" />
             <div className="col-lg-5 col-sm-12">
-            <p>Proficient In:</p>
             <ul className="skillsList">
+              <li>Proficient In:</li>
               <li><ImHtmlFive2 /> HTML</li>
               <li><ImCss3 /> CSS</li>
               <li><TbBrandJavascript /> JavaScript</li>

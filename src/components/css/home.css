@@ -95,6 +95,7 @@ h1 {
     list-style-type: none !important;
     font-size: 1.5rem;
     line-height: 3rem;
+    margin-left: 200px;
 }
 
 footer {
@@ -342,6 +343,11 @@ input, textarea {
         flex-direction: column;
         justify-content: center!important;
         text-align: center !important;
+    }
+    .skillsList {
+        display: grid;
+        margin-left: 10px;
+        justify-content: center;
     }
 }
 
