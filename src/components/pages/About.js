@@ -10,6 +10,7 @@ import {FaReact} from "react-icons/fa";
 import {BsBootstrap} from "react-icons/bs";
 import {FaNodeJs} from "react-icons/fa";
 
+// Short bio page containing information about tech I am proficient in. Media icons in the footer don't all lead to accounts with those services.
 
 function About() {
   return (
@@ -17,7 +18,7 @@ function About() {
       <h1 className="headerFont">About Me</h1>
         <div class="row aboutRow">
           <img src={require("./images/think.png")} className="thinkImg" alt="A person thinking" />
-            <div class="col-lg-5 col-sm-12">
+            <div className="col-lg-5 col-sm-12">
             <p>Proficient In:</p>
             <ul className="skillsList">
               <li><ImHtmlFive2 /> HTML</li>
@@ -27,15 +28,7 @@ function About() {
               <li><BsBootstrap /> Bootstrap</li>
               <li><FaNodeJs /> Node.js</li>
             </ul>
-                {/* <p>Having been ill for a long time with anxiety and depression I decided
-                    I needed to do something constructive to occupy my time. I first studied for, and graduated with, an
-                    honours degree in literature, having had vague ideas about becoming a teacher. After that I
-                    came across the Python programming language and discovered that I love writing code. The opportunity
-                    to attend this front end web development bootcamp arose, which I have eagerly taken up. The world
-                    wide web is still in its infancy, and I don't want to merely see what happens to it - I really want
-                    to be a part of it.
-                </p> */}
-            </div>
+        </div>
             <div className="row">
               <footer>
               <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer"><AiOutlineLinkedin/></a>

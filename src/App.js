@@ -8,17 +8,16 @@ import Contact from './components/pages/Contact';
 
 function App() {
   return (
+
+// Navigation menu utilising Router.
+
     <Router>
       <div>
         <NavTabs />
-        {/* Wrap Route elements in a Routes component */}
         <Routes basename="react-portfolio">
-          {/* Define routes using the Route component to render different page components at different paths */}
-          {/* Define a default route that will render the Home component */}
           <Route path="/react-portfolio" element={<Home />} />
           <Route path="/react-portfolio/About" element={<About />} />
           <Route path="/react-portfolio/Projects" element={<Projects />} />
-          {/* Define a route that will have descendant routes */}
           <Route path="/react-portfolio/Contact" element={<Contact />} />
         </Routes>
       </div>

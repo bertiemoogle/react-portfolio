@@ -2,6 +2,8 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import DisplayCard from "./Card";
 
+// Links to the GitHub repositories of challenges we have done over the past few months. These will be replaced with React apps over the next few weeks.
+
 function Projects() {
   return (
     <div className="container main-projects-container">

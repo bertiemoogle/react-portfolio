@@ -3,6 +3,8 @@ import "../css/home.css";
 import CV from "./images/CV.pdf"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// Landing page. The CV button downloads a dummy CV. Having been ill for many years I have no CV to speak of. I will hopefully pick up enough freelance work to populate one.
+
 function Home() {
   return (
     <div>

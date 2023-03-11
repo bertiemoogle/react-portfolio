@@ -1,5 +1,7 @@
 import React from "react";
 
+// Card function using props. Cards rendered through the Projects page.
+
 function DisplayCard(props) {
     return (
         <div className="card">
